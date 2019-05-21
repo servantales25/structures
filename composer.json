@@ -1,0 +1,21 @@
+{
+    "name": "lukun/structures",
+    "license": "proprietary",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Lukáš Kún",
+            "email": "lukaskun@seznam.cz"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LuKun\\Structures\\": "src/",
+            "LuKun\\Structures\\Tests\\": "tests/"
+        }
+    }
+}
