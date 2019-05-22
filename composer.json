@@ -2,7 +2,6 @@
     "name": "lukun/structures",
     "license": "MIT",
     "type": "library",
-    "version": "0.1.0",
     "authors": [
         {
             "name": "Lukáš Kún",
