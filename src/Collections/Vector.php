@@ -58,6 +58,17 @@ class Vector
         return in_array($value, $this->array, true);
     }
 
+    public function exists(callable $predicate): bool
+    {
+        foreach ($this->array as $value) {
+            if ($predicate($value)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     public function filter(callable $predicate): Vector
     {
         $vector = new Vector();
